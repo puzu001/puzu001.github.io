@@ -10,9 +10,9 @@
     <atom:link href="https://puzu001.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to use markdown - test </title>
-      <link>https://puzu001.github.io/blog/test01./</link>
+      <link>https://puzu001.github.io/blog/test01/</link>
       <pubDate>Sun, 30 Jun 2024 10:07:47 +0600</pubDate>
-      <guid>https://puzu001.github.io/blog/test01./</guid>
+      <guid>https://puzu001.github.io/blog/test01/</guid>
       <description>hello world&#xA;I am CCW&#xA;Markdown 語法 內文 標題 粗體 斜體 有序序列 無序序列 引用 超連結 圖片 單行程式碼 多行程式碼 表格 內文</description>
     </item>
     <item>
