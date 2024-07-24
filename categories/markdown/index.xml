@@ -2,18 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Markdown on 個人網頁課程練習</title>
-    <link>https://puzu001.github.io/categories/markdown/</link>
+    <link>http://localhost:1313/categories/markdown/</link>
     <description>Recent content in Markdown on 個人網頁課程練習</description>
     <generator>Hugo</generator>
     <language>zh-tw</language>
     <lastBuildDate>Sun, 30 Jun 2024 10:07:47 +0600</lastBuildDate>
-    <atom:link href="https://puzu001.github.io/categories/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/markdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to use markdown - test </title>
-      <link>https://puzu001.github.io/blog/test01/</link>
+      <link>http://localhost:1313/blog/test01/</link>
       <pubDate>Sun, 30 Jun 2024 10:07:47 +0600</pubDate>
-      <guid>https://puzu001.github.io/blog/test01/</guid>
+      <guid>http://localhost:1313/blog/test01/</guid>
       <description>hello world&#xA;I am CCW&#xA;Markdown 語法 內文 標題 粗體 斜體 有序序列 無序序列 引用 超連結 圖片 單行程式碼 多行程式碼 表格 內文</description>
+    </item>
+    <item>
+      <title>How to use markdown - test </title>
+      <link>http://localhost:1313/blog/test02/</link>
+      <pubDate>Sun, 30 Jun 2024 10:07:47 +0600</pubDate>
+      <guid>http://localhost:1313/blog/test02/</guid>
+      <description>hello world&#xA;I am CCW&#xA;Markdown 語法 內文 標題 粗體 斜體 有序序列 無序序列 引用 超連結 圖片 單行程式碼 多行程式碼 表格 內文</description>
+    </item>
+    <item>
+      <title>How to use markdown - test </title>
+      <link>http://localhost:1313/blog/test04/</link>
+      <pubDate>Sun, 30 Jun 2024 10:07:47 +0600</pubDate>
+      <guid>http://localhost:1313/blog/test04/</guid>
+      <description>Go 語法教學 Go 語言（簡稱 Golang）是一種靜態類型、編譯型的編程語言，由 Google 開發。它以其簡單、高效和並行處理能力而聞名。在這篇教學中，我們將介紹 Go 語言的基本語法，包括變量、數據類型、函數、條件語句、循環、結構體和並發處理。</description>
+    </item>
+    <item>
+      <title>How to use markdown - test </title>
+      <link>http://localhost:1313/blog/test06/</link>
+      <pubDate>Sun, 30 Jun 2024 10:07:47 +0600</pubDate>
+      <guid>http://localhost:1313/blog/test06/</guid>
+      <description>Markdown 本身不會調整行距，但當你在某些平台（如 GitHub、Markdown 編輯器或網站）查看 Markdown 文件時，行距可能會有所不同。如果你在特定的 Markdown 查看器中遇到行距問題，可以通過以下幾種方法來調整顯示效果。&#xA;方法一：使用自定義 CSS 如果你在網站上顯示 Markdown，可以使用自定義 CSS 來調整行距。例如：</description>
     </item>
   </channel>
 </rss>

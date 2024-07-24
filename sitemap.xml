@@ -2,25 +2,82 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://puzu001.github.io/blog/dish03/</loc>
+    <lastmod>2024-07-23T12:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://puzu001.github.io/categories/</loc>
+    <lastmod>2024-07-23T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://puzu001.github.io/blog/test11/</loc>
+    <lastmod>2024-07-23T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://puzu001.github.io/blog/test09/</loc>
+    <lastmod>2024-07-23T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://puzu001.github.io/tags/hugo/</loc>
+    <lastmod>2024-07-23T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://puzu001.github.io/blog/test03/</loc>
+    <lastmod>2024-07-23T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://puzu001.github.io/blog/test12/</loc>
+    <lastmod>2024-07-23T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://puzu001.github.io/blog/test10/</loc>
+    <lastmod>2024-07-23T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://puzu001.github.io/tags/</loc>
+    <lastmod>2024-07-23T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://puzu001.github.io/blog/sports01/</loc>
+    <lastmod>2024-07-23T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://puzu001.github.io/blog/sports02/</loc>
+    <lastmod>2024-07-23T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://puzu001.github.io/blog/sports03/</loc>
+    <lastmod>2024-07-23T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://puzu001.github.io/tags/%E4%BC%91%E9%96%92/</loc>
+    <lastmod>2024-07-23T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://puzu001.github.io/blog/trip01/</loc>
+    <lastmod>2024-07-23T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://puzu001.github.io/</loc>
+    <lastmod>2024-07-23T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://puzu001.github.io/tags/%E5%81%A5%E5%BA%B7/</loc>
+    <lastmod>2024-07-23T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://puzu001.github.io/tags/%E5%AD%B8%E7%BF%92/</loc>
+    <lastmod>2024-07-23T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://puzu001.github.io/categories/%E5%AD%B8%E7%BF%92/</loc>
+    <lastmod>2024-07-23T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://puzu001.github.io/categories/%E6%97%85%E9%81%8A/</loc>
+    <lastmod>2024-07-23T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://puzu001.github.io/categories/%E9%81%8B%E5%8B%95/</loc>
+    <lastmod>2024-07-23T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://puzu001.github.io/categories/%E9%96%8B%E7%99%BC/</loc>
+    <lastmod>2024-07-23T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://puzu001.github.io/tags/%E9%9D%9C%E6%85%8B%E7%B6%B2%E7%AB%99%E7%94%9F%E6%88%90%E5%99%A8/</loc>
+    <lastmod>2024-07-23T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://puzu001.github.io/categories/%E9%A3%B2%E9%A3%9F/</loc>
+    <lastmod>2024-07-23T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://puzu001.github.io/blog/test04/</loc>
     <lastmod>2024-06-30T10:07:47+06:00</lastmod>
   </url><url>
     <loc>https://puzu001.github.io/blog/test01/</loc>
     <lastmod>2024-06-30T10:07:47+06:00</lastmod>
   </url><url>
     <loc>https://puzu001.github.io/tags/markdown/</loc>
-    <lastmod>2024-06-30T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://puzu001.github.io/categories/markdown/</loc>
-    <lastmod>2024-06-30T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://puzu001.github.io/tags/program/</loc>
-    <lastmod>2024-06-30T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://puzu001.github.io/tags/</loc>
-    <lastmod>2024-06-30T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://puzu001.github.io/</loc>
     <lastmod>2024-06-30T10:07:47+06:00</lastmod>
   </url><url>
     <loc>https://puzu001.github.io/about/</loc>
@@ -34,26 +91,5 @@
   </url><url>
     <loc>https://puzu001.github.io/search/</loc>
     <lastmod>2019-10-29T13:49:23+06:00</lastmod>
-  </url><url>
-    <loc>https://puzu001.github.io/tags/game/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://puzu001.github.io/categories/go-language/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://puzu001.github.io/blog/post-13/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://puzu001.github.io/tags/html/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://puzu001.github.io/tags/new/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://puzu001.github.io/tags/photos/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
-  </url><url>
-    <loc>https://puzu001.github.io/tags/python/</loc>
-    <lastmod>2019-10-29T10:07:47+06:00</lastmod>
   </url>
 </urlset>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>教學 on 個人網頁課程練習</title>
+    <link>http://localhost:1313/tags/%E6%95%99%E5%AD%B8/</link>
+    <description>Recent content in 教學 on 個人網頁課程練習</description>
+    <generator>Hugo</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Tue, 23 Jul 2024 12:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E6%95%99%E5%AD%B8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo 語法架構教學</title>
+      <link>http://localhost:1313/blog/test08/</link>
+      <pubDate>Tue, 23 Jul 2024 12:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/test08/</guid>
+      <description>以下是一份以 Markdown 語法撰寫的 &amp;ldquo;Hugo 語法架構教學&amp;rdquo; 部落格文章。&#xA;Hugo 語法架構教學 Hugo 是一個基於 Go 語言的靜態網站生成器，非常適合用來建立快速且高效的網站。在這篇文章中，我們將介紹 Hugo 的基本語法架構，包括配置文件、內容文件、模板文件、短代碼以及靜態資源的使用。</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="zh-tw"><head>
+  <meta charset="utf-8">
+  <title>個人網頁課程練習</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="學習 hugo 語法">
+  <meta name="author" content="Puzumei">
+    
+  
+  <meta name="theme-name" content="liva-hugo" />
+  
+  <meta name="generator" content="Hugo 0.127.0">
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://puzu001.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://puzu001.github.io/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://puzu001.github.io/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://puzu001.github.io/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://puzu001.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://puzu001.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://puzu001.github.io/images/favicon.png " type="image/x-icon">
+
+  
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QBJXY37C8W"></script>
+
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QBJXY37C8W');
+</script>
+
+</head>
+<body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://puzu001.github.io/"><img class="img-fluid"
+          src="https://puzu001.github.io/images/fishbone03.png" alt="個人網頁課程練習"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-facebook"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-twitter-alt"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-instagram"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/puzu001"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://puzu001.github.io/"><img class="img-fluid"
+            src="https://puzu001.github.io/images/fishbone03.png" alt="個人網頁課程練習"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://puzu001.github.io/about/">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://puzu001.github.io/blog/">Post</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://puzu001.github.io//search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        
+        <a href="/categories/%e9%96%8b%e7%99%bc"
+          class="text-primary">開發</a>
+        
+        <a href="/categories/%e5%ad%b8%e7%bf%92"
+          class="text-primary">學習</a>
+        
+        <h2>Hugo 語法架構教學</h2>
+        <div class="mb-3 post-meta">
+          <span>By Puzumei</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>23 July 2024</span>
+          
+        </div>
+        
+        <img src="https://puzu001.github.io/images/post/toy11.png" class="img-fluid w-100 mb-4" alt="Hugo 語法架構教學">
+        
+        <div class="content mb-5">
+          <h1 id="hugo-語法架構教學">Hugo 語法架構教學</h1>
+<p>Hugo 是一個基於 Go 語言的靜態網站生成器，非常適合用來建立快速且高效的網站。在這篇文章中，
+我們將介紹 Hugo 的基本語法架構，包括配置文件、內容文件、模板文件、短代碼以及靜態資源的使用。</p>
+<h2 id="配置文件-configtoml--configyaml--configjson">配置文件 (<code>config.toml</code> / <code>config.yaml</code> / <code>config.json</code>)</h2>
+<p>配置文件用於設置網站的全局配置，例如網站標題、基礎 URL、語言等。以下是一些常見的配置項目：</p>
+<h3 id="configtoml"><code>config.toml</code></h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span><span style="color:#000">baseURL</span> = <span style="color:#5a2">&#34;https://example.com/&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">title</span> = <span style="color:#5a2">&#34;My Hugo Site&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">languageCode</span> = <span style="color:#5a2">&#34;en-us&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">theme</span> = <span style="color:#5a2">&#34;your-theme-name&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[<span style="color:#000">params</span>]
+</span></span><span style="display:flex;"><span>  <span style="color:#000">author</span> = <span style="color:#5a2">&#34;Your Name&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#000">description</span> = <span style="color:#5a2">&#34;A brief description of the site.&#34;</span>
+</span></span></code></pre></div><h3 id="configyaml"><code>config.yaml</code></h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#000">baseURL</span>: <span style="color:#5a2">&#34;https://example.com/&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">title</span>: <span style="color:#5a2">&#34;My Hugo Site&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">languageCode</span>: <span style="color:#5a2">&#34;en-us&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#000">theme</span>: <span style="color:#5a2">&#34;your-theme-name&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#000">params</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#000">author</span>: <span style="color:#5a2">&#34;Your Name&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#000">description</span>: <span style="color:#5a2">&#34;A brief description of the site.&#34;</span>
+</span></span></code></pre></div><h3 id="configjson"><code>config.json</code></h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#000">&#34;baseURL&#34;</span>: <span style="color:#5a2">&#34;https://example.com/&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#000">&#34;title&#34;</span>: <span style="color:#5a2">&#34;My Hugo Site&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#000">&#34;languageCode&#34;</span>: <span style="color:#5a2">&#34;en-us&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#000">&#34;theme&#34;</span>: <span style="color:#5a2">&#34;your-theme-name&#34;</span>,
+</span></span><span style="display:flex;"><span>  <span style="color:#000">&#34;params&#34;</span>: {
+</span></span><span style="display:flex;"><span>    <span style="color:#000">&#34;author&#34;</span>: <span style="color:#5a2">&#34;Your Name&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#000">&#34;description&#34;</span>: <span style="color:#5a2">&#34;A brief description of the site.&#34;</span>
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="內容文件-content">內容文件 (<code>content/</code>)</h2>
+<p>內容文件夾中存儲網站的所有內容，每個內容文件通常以 Markdown 文件形式存儲，並包含前端語法（front matter）。</p>
+<h3 id="文章範例-contentpostsmy-first-postmd">文章範例 (<code>content/posts/my-first-post.md</code>)</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>title: &#34;My First Post&#34;
+</span></span><span style="display:flex;"><span>date: 2024-07-20T12:00:00Z
+</span></span><span style="display:flex;"><span>draft: true
+</span></span><span style="display:flex;"><span>tags: [&#34;tag1&#34;, &#34;tag2&#34;]
+</span></span><span style="display:flex;"><span>categories: [&#34;category1&#34;]
+</span></span><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>這是我的第一篇文章內容。
+</span></span></code></pre></div><h2 id="模板文件-layouts">模板文件 (<code>layouts/</code>)</h2>
+<p>模板文件定義了如何渲染內容，包括頁面模板、部分模板、短代碼等。以下是一些常見的模板文件及其用途：</p>
+<h3 id="layouts_defaultbaseofhtml"><code>layouts/_default/baseof.html</code></h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#888;font-style:italic">&lt;!DOCTYPE html&gt;</span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#000">html</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#000">head</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#000">title</span>&gt;{{ .Title }}&lt;/<span style="color:#000">title</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#000">meta</span> <span style="color:#000">charset</span>=<span style="color:#5a2">&#34;utf-8&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#000">meta</span> <span style="color:#000">name</span>=<span style="color:#5a2">&#34;viewport&#34;</span> <span style="color:#000">content</span>=<span style="color:#5a2">&#34;width=device-width, initial-scale=1&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#000">head</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#000">body</span>&gt;
+</span></span><span style="display:flex;"><span>    {{ block &#34;main&#34; . }}{{ end }}
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#000">body</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#000">html</span>&gt;
+</span></span></code></pre></div><h3 id="layouts_defaultsinglehtml"><code>layouts/_default/single.html</code></h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>{{ define &#34;main&#34; }}
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#000">article</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#000">h1</span>&gt;{{ .Title }}&lt;/<span style="color:#000">h1</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#000">p</span>&gt;{{ .Content }}&lt;/<span style="color:#000">p</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#000">article</span>&gt;
+</span></span><span style="display:flex;"><span>{{ end }}
+</span></span></code></pre></div><h3 id="layouts_defaultlisthtml"><code>layouts/_default/list.html</code></h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>{{ define &#34;main&#34; }}
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#000">ul</span>&gt;
+</span></span><span style="display:flex;"><span>    {{ range .Pages }}
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#000">li</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#000">a</span> <span style="color:#000">href</span>=<span style="color:#5a2">&#34;{{ .Permalink }}&#34;</span>&gt;{{ .Title }}&lt;/<span style="color:#000">a</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#000">li</span>&gt;
+</span></span><span style="display:flex;"><span>    {{ end }}
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#000">ul</span>&gt;
+</span></span><span style="display:flex;"><span>{{ end }}
+</span></span></code></pre></div><h3 id="layoutspartialsheaderhtml"><code>layouts/partials/header.html</code></h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#000">header</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#000">h1</span>&gt;{{ .Site.Title }}&lt;/<span style="color:#000">h1</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#000">p</span>&gt;{{ .Site.Params.description }}&lt;/<span style="color:#000">p</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#000">header</span>&gt;
+</span></span></code></pre></div><h2 id="短代碼-layoutsshortcodes">短代碼 (<code>layouts/shortcodes/</code>)</h2>
+<p>短代碼用於在內容文件中插入自定義元素，使用簡單且靈活。</p>
+<h3 id="自定義短代碼範例-layoutsshortcodesmyshortcodehtml">自定義短代碼範例 (<code>layouts/shortcodes/myshortcode.html</code>)</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#000">p</span>&gt;This is my custom shortcode with parameter: {{ .Get &#34;param&#34; }}&lt;/<span style="color:#000">p</span>&gt;
+</span></span></code></pre></div><h3 id="使用範例">使用範例</h3>
+<p>在內容文件中使用短代碼：</p>
+<h2 id="靜態資源-static">靜態資源 (<code>static/</code>)</h2>
+<p>靜態資源文件夾中的文件會被原樣複製到網站的根目錄，用於存放圖片、CSS 文件、JavaScript 文件等。</p>
+<h3 id="靜態文件範例">靜態文件範例</h3>
+<pre tabindex="0"><code>static/
+└── images/
+    └── my-image.jpg
+</code></pre><p>引用靜態資源：</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#000">img</span> <span style="color:#000">src</span>=<span style="color:#5a2">&#34;/images/my-image.jpg&#34;</span> <span style="color:#000">alt</span>=<span style="color:#5a2">&#34;My Image&#34;</span>&gt;
+</span></span></code></pre></div><h2 id="進階功能">進階功能</h2>
+<h3 id="內容組織sections">內容組織（Sections）</h3>
+<p>Hugo 支持多層次的內容組織，通過文件夾來區分不同的內容部分。</p>
+<h3 id="範例">範例</h3>
+<pre tabindex="0"><code>content/
+├── posts/
+│   ├── post1.md
+│   └── post2.md
+├── projects/
+│   ├── project1.md
+│   └── project2.md
+</code></pre><h3 id="多語言支持">多語言支持</h3>
+<p>Hugo 支持多語言網站，可以在配置文件中設置不同語言的配置。</p>
+<h3 id="範例-1">範例</h3>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>[<span style="color:#000">languages</span>]
+</span></span><span style="display:flex;"><span>  [<span style="color:#000">languages</span>.<span style="color:#000">en</span>]
+</span></span><span style="display:flex;"><span>    <span style="color:#000">title</span> = <span style="color:#5a2">&#34;My Hugo Site&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#000">weight</span> = <span style="color:#3af">1</span>
+</span></span><span style="display:flex;"><span>  [<span style="color:#000">languages</span>.<span style="color:#000">fr</span>]
+</span></span><span style="display:flex;"><span>    <span style="color:#000">title</span> = <span style="color:#5a2">&#34;Mon Site Hugo&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#000">weight</span> = <span style="color:#3af">2</span>
+</span></span></code></pre></div><h2 id="部署網站">部署網站</h2>
+<p>將 Hugo 生成的靜態文件部署到網頁伺服器上，可以使用 GitHub Pages、Netlify 等平台。生成靜態文件：</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>hugo
+</span></span></code></pre></div><p>將 <code>public/</code> 文件夾中的內容上傳到伺服器即可。</p>
+<h2 id="總結">總結</h2>
+<p>Hugo 的語法架構涵蓋了配置文件、內容文件、模板文件、短代碼以及靜態資源的使用。這些組成部分協同工作，
+使得 Hugo 能夠快速生成靜態網站，並提供靈活的自定義選項以滿足不同需求。希望這篇教學能夠幫助你更好地
+掌握 Hugo，建立屬於你自己的靜態網站。</p>
+<hr>
+<p>感謝閱讀這篇 &ldquo;Hugo 語法架構教學&rdquo; 部落格文章！如果你有任何問題或需要進一步的幫助，歡迎在下方留言。</p>
+<pre tabindex="0"><code></code></pre>
+        </div>
+
+       
+        
+        <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "puzu001" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer class="text-capitalize">
+  
+</footer>
+
+<script>
+  var indexURL = "https://puzu001.github.io/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://puzu001.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://puzu001.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://puzu001.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://puzu001.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://puzu001.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://puzu001.github.io/plugins/search/mark.js"></script>
+
+<script src="https://puzu001.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://puzu001.github.io/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+</html>

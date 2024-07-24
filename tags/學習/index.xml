@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>學習 on 個人網頁課程練習</title>
+    <link>https://puzu001.github.io/tags/%E5%AD%B8%E7%BF%92/</link>
+    <description>Recent content in 學習 on 個人網頁課程練習</description>
+    <generator>Hugo</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Tue, 23 Jul 2024 12:00:00 +0000</lastBuildDate>
+    <atom:link href="https://puzu001.github.io/tags/%E5%AD%B8%E7%BF%92/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>css 語法架構學習</title>
+      <link>https://puzu001.github.io/blog/test11/</link>
+      <pubDate>Tue, 23 Jul 2024 12:00:00 +0000</pubDate>
+      <guid>https://puzu001.github.io/blog/test11/</guid>
+      <description>CSS 語法架構 介紹 CSS（Cascading Style Sheets）是用於描述網頁內容外觀和布局的樣式表語言。本教學將介紹 CSS 的基本語法和常用樣式屬性。&#xA;基本 CSS 語法 選擇器 CSS 使用選擇器來選擇要樣式化的 HTML 元素。以下是幾種常見的選擇器：</description>
+    </item>
+    <item>
+      <title>Html 語法架構學習</title>
+      <link>https://puzu001.github.io/blog/test09/</link>
+      <pubDate>Tue, 23 Jul 2024 12:00:00 +0000</pubDate>
+      <guid>https://puzu001.github.io/blog/test09/</guid>
+      <description>HTML 語法架構 介紹 HTML（HyperText Markup Language）是用於創建網頁的基本構建塊。本教學將介紹 HTML 的基本結構和常用標籤。&#xA;HTML 基本結構 一個基本的 HTML 文件由以下部分組成：</description>
+    </item>
+    <item>
+      <title>Hugo 語法架構教學</title>
+      <link>https://puzu001.github.io/blog/test03/</link>
+      <pubDate>Tue, 23 Jul 2024 12:00:00 +0000</pubDate>
+      <guid>https://puzu001.github.io/blog/test03/</guid>
+      <description>Hugo 語法架構教學 Hugo 是一個基於 Go 語言的靜態網站生成器，非常適合用來建立快速且高效的網站。在這篇文章中， 我們將介紹 Hugo 的基本語法架構，包括配置文件、內容文件、模板文件、短代碼以及靜態資源的使用。&#xA;配置文件 (config.</description>
+    </item>
+    <item>
+      <title>MarkDown 語法架構學習</title>
+      <link>https://puzu001.github.io/blog/test12/</link>
+      <pubDate>Tue, 23 Jul 2024 12:00:00 +0000</pubDate>
+      <guid>https://puzu001.github.io/blog/test12/</guid>
+      <description>Markdown 語法架構 介紹 Markdown 是一種輕量級標記語言，設計用來快速編寫格式化文檔，特別是用於網絡。本教學將介紹 Markdown 的基本語法和常用標記。&#xA;基本文本格式 段落和換行 使用空行來分隔段落。換行需在行尾添加兩個空格以上。</description>
+    </item>
+    <item>
+      <title>SCSS 語法架構學習</title>
+      <link>https://puzu001.github.io/blog/test10/</link>
+      <pubDate>Tue, 23 Jul 2024 12:00:00 +0000</pubDate>
+      <guid>https://puzu001.github.io/blog/test10/</guid>
+      <description>SCSS 語法架構 介紹 SCSS（Sassy CSS）是 CSS 的一種擴展，它提供了許多有用的功能，如變量、巢狀規則、混入（Mixins）等，並且具有更清晰和模組化的代碼結構。&#xA;安裝 SCSS 要使用 SCSS，你需要先安裝 Sass，它是一個用於編譯 SCSS 到普通 CSS 的工具。</description>
+    </item>
+    <item>
+      <title>Go 語法學習 </title>
+      <link>https://puzu001.github.io/blog/test04/</link>
+      <pubDate>Sun, 30 Jun 2024 10:07:47 +0600</pubDate>
+      <guid>https://puzu001.github.io/blog/test04/</guid>
+      <description>Go 語法 Go 語言（簡稱 Golang）是一種靜態類型、編譯型的編程語言，由 Google 開發。它以其簡單、高效和並行處理能力而聞名。在這篇教學中，我們將介紹 Go 語言的基本語法，包括變量、數據類型、函數、條件語句、循環、結構體和並發處理。</description>
+    </item>
+    <item>
+      <title>How to use markdown - test </title>
+      <link>https://puzu001.github.io/blog/test01/</link>
+      <pubDate>Sun, 30 Jun 2024 10:07:47 +0600</pubDate>
+      <guid>https://puzu001.github.io/blog/test01/</guid>
+      <description>hello world&#xA;I am CCW&#xA;Markdown 語法 內文 標題 粗體 斜體 有序序列 無序序列 引用 超連結 圖片 單行程式碼 多行程式碼 表格 內文</description>
+    </item>
+  </channel>
+</rss>

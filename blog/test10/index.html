@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="zh-tw"><head>
+  <meta charset="utf-8">
+  <title>個人網頁課程練習</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="學習 scss 語法">
+  <meta name="author" content="Puzumei">
+    
+  
+  <meta name="theme-name" content="liva-hugo" />
+  
+  <meta name="generator" content="Hugo 0.127.0">
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://puzu001.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://puzu001.github.io/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://puzu001.github.io/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://puzu001.github.io/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://puzu001.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://puzu001.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://puzu001.github.io/images/favicon.png " type="image/x-icon">
+
+  
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QBJXY37C8W"></script>
+
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QBJXY37C8W');
+</script>
+
+</head>
+<body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://puzu001.github.io/"><img class="img-fluid"
+          src="https://puzu001.github.io/images/fishbone03.png" alt="個人網頁課程練習"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-facebook"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-twitter-alt"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-instagram"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/puzu001"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://puzu001.github.io/"><img class="img-fluid"
+            src="https://puzu001.github.io/images/fishbone03.png" alt="個人網頁課程練習"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://puzu001.github.io/about/">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://puzu001.github.io/blog/">Post</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://puzu001.github.io//search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        
+        <a href="/categories/%e9%96%8b%e7%99%bc"
+          class="text-primary">開發</a>
+        
+        <a href="/categories/%e5%ad%b8%e7%bf%92"
+          class="text-primary">學習</a>
+        
+        <h2>SCSS 語法架構學習</h2>
+        <div class="mb-3 post-meta">
+          <span>By Puzumei</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>23 July 2024</span>
+          
+        </div>
+        
+        <img src="https://puzu001.github.io/images/post/toy14.png" class="img-fluid w-100 mb-4" alt="SCSS 語法架構學習">
+        
+        <div class="content mb-5">
+          <h1 id="scss-語法架構">SCSS 語法架構</h1>
+<h2 id="介紹">介紹</h2>
+<p>SCSS（Sassy CSS）是 CSS 的一種擴展，它提供了許多有用的功能，如變量、巢狀規則、混入（Mixins）等，並且具有更清晰和模組化的代碼結構。</p>
+<h2 id="安裝-scss">安裝 SCSS</h2>
+<p>要使用 SCSS，你需要先安裝 Sass，它是一個用於編譯 SCSS 到普通 CSS 的工具。</p>
+<h3 id="安裝-sass">安裝 Sass</h3>
+<p>可以使用 npm 在命令行中安裝 Sass：</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>npm install -g sass
+</span></span></code></pre></div><p>安裝完成後，你可以使用以下命令來編譯 SCSS 文件：</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sass input.scss output.css
+</span></span></code></pre></div><h2 id="基本-scss-語法">基本 SCSS 語法</h2>
+<h3 id="變量">變量</h3>
+<p>使用 <code>$</code> 符號定義變量：</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-scss" data-lang="scss"><span style="display:flex;"><span><span style="color:#000">$primary-color</span>: <span style="color:#3af">#3498db</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#000">body</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#000">background-color</span>: <span style="color:#000">$primary-color</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h3 id="巢狀規則">巢狀規則</h3>
+<p>可以將子選擇器和後代選擇器寫在一起：</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-scss" data-lang="scss"><span style="display:flex;"><span><span style="color:#000">.navbar</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#000">background-color</span>: <span style="color:#3af">#333</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#000">ul</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#000">list-style-type</span>: <span style="color:#000">none</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#000">li</span> {
+</span></span><span style="display:flex;"><span>            <span style="color:#000">display</span>: <span style="color:#000">inline-block</span>;
+</span></span><span style="display:flex;"><span>            <span style="color:#000">margin-right</span>: <span style="color:#3af">10</span><span style="color:#00f">px</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#000">a</span> {
+</span></span><span style="display:flex;"><span>                <span style="color:#000">text-decoration</span>: <span style="color:#000">none</span>;
+</span></span><span style="display:flex;"><span>                <span style="color:#000">color</span>: <span style="color:#3af">#fff</span>;
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h3 id="混入mixins">混入（Mixins）</h3>
+<p>混入允許你重用 CSS 屬性：</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-scss" data-lang="scss"><span style="display:flex;"><span><span style="color:#00f">@mixin</span><span style="color:#000"> border-radius</span>(<span style="color:#000">$radius</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#000">-webkit-border-radius</span>: <span style="color:#000">$radius</span>;
+</span></span><span style="display:flex;"><span>       <span style="color:#000">-moz-border-radius</span>: <span style="color:#000">$radius</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#000">-ms-border-radius</span>: <span style="color:#000">$radius</span>;
+</span></span><span style="display:flex;"><span>            <span style="color:#000">border-radius</span>: <span style="color:#000">$radius</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#000">.box</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#00f">@include</span><span style="color:#000"> border-radius</span>(<span style="color:#3af">10</span><span style="color:#00f">px</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#000">background-color</span>: <span style="color:#3af">#f0f0f0</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#000">padding</span>: <span style="color:#3af">20</span><span style="color:#00f">px</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h3 id="繼承extend">繼承（Extend）</h3>
+<p>使用 <code>@extend</code> 可以讓一個選擇器繼承另一個選擇器的所有樣式：</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-scss" data-lang="scss"><span style="display:flex;"><span><span style="color:#000">.btn</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#000">padding</span>: <span style="color:#3af">10</span><span style="color:#00f">px</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#000">background-color</span>: <span style="color:#3af">#3498db</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#000">color</span>: <span style="color:#3af">#fff</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#000">.btn-primary</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#00f">@extend</span> <span style="color:#000">.btn</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#000">background-color</span>: <span style="color:#3af">#e74c3c</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h3 id="運算符">運算符</h3>
+<p>支持數學運算符：</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-scss" data-lang="scss"><span style="display:flex;"><span><span style="color:#000">.container</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#000">width</span>: <span style="color:#3af">100</span><span style="color:#00f">%</span> / <span style="color:#3af">3</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="結論">結論</h2>
+<p>這篇教學介紹了 SCSS 的基本語法結構，包括變量、巢狀規則、混入、繼承和運算符等功能。SCSS 通過這些功能使得 CSS 更加強大和可維護，尤其適合大型項目和需要高度重用性的場景。</p>
+<p>參考 <a href="https://sass-lang.com/documentation">Sass 官方文檔</a>。</p>
+
+        </div>
+
+       
+        
+        <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "puzu001" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer class="text-capitalize">
+  
+</footer>
+
+<script>
+  var indexURL = "https://puzu001.github.io/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://puzu001.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://puzu001.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://puzu001.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://puzu001.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://puzu001.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://puzu001.github.io/plugins/search/mark.js"></script>
+
+<script src="https://puzu001.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://puzu001.github.io/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+</html>
