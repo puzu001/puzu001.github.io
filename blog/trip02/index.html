@@ -5,7 +5,7 @@
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="學習 markdwon 語法">
+  <meta name="description" content="環島走透透">
   <meta name="author" content="Puzumei">
     
   
@@ -136,97 +136,170 @@
     <div class="row">
       <div class="col-lg-8 mx-auto">
         
-        <a href="/categories/%e9%96%8b%e7%99%bc"
-          class="text-primary">開發</a>
+        <a href="/categories/%e6%97%85%e9%81%8a"
+          class="text-primary">旅遊</a>
         
-        <a href="/categories/%e5%ad%b8%e7%bf%92"
-          class="text-primary">學習</a>
-        
-        <h2>MarkDown 語法架構學習</h2>
+        <h2>7天環島旅遊行程規劃</h2>
         <div class="mb-3 post-meta">
           <span>By Puzumei</span>
           
           <span class="border-bottom border-primary px-2 mx-1"></span>
-          <span>23 July 2024</span>
+          <span>17 July 2024</span>
           
         </div>
         
-        <img src="https://puzu001.github.io/images/post/toy16.png" class="img-fluid w-100 mb-4" alt="MarkDown 語法架構學習">
+        <img src="https://puzu001.github.io/images/post/plum06.jpg" class="img-fluid w-100 mb-4" alt="7天環島旅遊行程規劃">
         
         <div class="content mb-5">
-          <h1 id="markdown-語法架構">Markdown 語法架構</h1>
-<h2 id="介紹">介紹</h2>
-<p>Markdown 是一種輕量級標記語言，設計用來快速編寫格式化文檔，特別是用於網絡。本教學將介紹 Markdown 的基本語法和常用標記。</p>
-<h2 id="基本文本格式">基本文本格式</h2>
-<h3 id="段落和換行">段落和換行</h3>
-<p>使用空行來分隔段落。換行需在行尾添加兩個空格以上。</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>這是第一個段落。
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>這是第二個段落，  
-</span></span><span style="display:flex;"><span>這是換行的示例。
-</span></span></code></pre></div><h3 id="標題">標題</h3>
-<p>Markdown 支持六種級別的標題，使用 <code>#</code> 號加上空格表示標題級別，<code>#</code> 越多，標題級別越低。</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span># 標題 1
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>## 標題 2
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>### 標題 3
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>#### 標題 4
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>##### 標題 5
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>###### 標題 6
-</span></span></code></pre></div><h3 id="強調和粗體">強調和粗體</h3>
-<p>使用 <code>*</code> 或 <code>_</code> 包圍文本來進行強調和粗體。</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>*斜體* 或 _斜體_
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>**粗體** 或 __粗體__
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>***斜體加粗*** 或 ___斜體加粗___
-</span></span></code></pre></div><h3 id="列表">列表</h3>
-<p>Markdown 支持有序列表和無序列表。</p>
-<h4 id="無序列表">無序列表</h4>
-<p>使用 <code>*</code>、<code>+</code> 或 <code>-</code> 加上空格來創建無序列表。</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#00f">-</span> 項目 1
-</span></span><span style="display:flex;"><span><span style="color:#00f">-</span> 項目 2
-</span></span><span style="display:flex;"><span>  <span style="color:#00f">*</span> 子項目 2.1
-</span></span><span style="display:flex;"><span>  <span style="color:#00f">*</span> 子項目 2.2
-</span></span></code></pre></div><h4 id="有序列表">有序列表</h4>
-<p>使用數字加上點和空格來創建有序列表。</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#00f">1.</span> 項目 1
-</span></span><span style="display:flex;"><span><span style="color:#00f">2.</span> 項目 2
-</span></span><span style="display:flex;"><span>   <span style="color:#00f">1.</span> 子項目 2.1
-</span></span><span style="display:flex;"><span>   <span style="color:#00f">2.</span> 子項目 2.2
-</span></span></code></pre></div><h3 id="鏈接">鏈接</h3>
-<p>使用 <code>[顯示文本](URL)</code> 來創建鏈接。</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>[<span style="color:#000">點擊這裡訪問示例網站</span>](<span style="color:#000">https://example.com</span>)
-</span></span></code></pre></div><h3 id="圖片">圖片</h3>
-<p>使用 <code>![替代文本](圖片URL)</code> 來插入圖片。</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>![<span style="color:#000">示例圖片</span>](<span style="color:#000">https://example.com/image.jpg</span>)
-</span></span></code></pre></div><h3 id="區塊引用">區塊引用</h3>
-<p>使用 <code>&gt;</code> 來表示區塊引用。</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span><span style="color:#00f">&gt; </span>這是一個區塊引用示例。
-</span></span></code></pre></div><h3 id="代碼區塊">代碼區塊</h3>
-<p>使用三個反引號 ``` 包圍代碼區塊，可以指定語言來進行語法高亮。</p>
-<p>```javascript
-function greet() {
-console.log(&lsquo;Hello, Markdown!&rsquo;);
-}
-```</p>
-<h3 id="表格">表格</h3>
-<p>使用 <code>|</code> 分隔列，並使用 <code>-</code> 表示表頭和分隔行。</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>| 姓名 | 年齡 |
-</span></span><span style="display:flex;"><span>|------|------|
-</span></span><span style="display:flex;"><span>| 小明 | 20   |
-</span></span><span style="display:flex;"><span>| 小紅 | 25   |
-</span></span></code></pre></div><h2 id="結論">結論</h2>
-<p>這篇教學介紹了 Markdown 的基本語法結構和常用標記，幫助你快速入門撰寫格式化文檔。Markdown 簡潔明了的語法使得寫作和編輯變得更加輕鬆和高效。</p>
-<p>希望這篇教學對你有所幫助！</p>
-<p>如需更多信息，請參考 <a href="https://guides.github.com/features/mastering-markdown/">Mastering Markdown</a> 和 <a href="https://www.markdownguide.org/">Markdown Guide</a>。</p>
-<pre tabindex="0"><code>
-這個 Markdown 文件提供了一個基本的 Markdown 教學，涵蓋了段落、標題、強調、列表、鏈接、圖片、區塊引用、代碼區塊、表格等常見的 Markdown 語法結構。你可以根據需要調整內容，以滿足特定的教學需求或目標。
-</code></pre>
+          <p>`</p>
+<h1 id="7天環島旅遊行程規劃">7天環島旅遊行程規劃</h1>
+<p>這份7天的環島旅遊行程規劃設計為緊湊而充實的行程，讓你在短時間內充分體驗台灣的多樣魅力。</p>
+<h2 id="行程概覽">行程概覽</h2>
+<ul>
+<li><strong>第1天</strong>：台北市區探索</li>
+<li><strong>第2天</strong>：台北到九份，接著前往基隆</li>
+<li><strong>第3天</strong>：基隆到花蓮</li>
+<li><strong>第4天</strong>：花蓮到台東</li>
+<li><strong>第5天</strong>：台東到高雄</li>
+<li><strong>第6天</strong>：高雄到台南</li>
+<li><strong>第7天</strong>：台南回台北</li>
+</ul>
+<h2 id="詳細行程">詳細行程</h2>
+<h3 id="第1天台北市區探索">第1天：台北市區探索</h3>
+<ul>
+<li><strong>早上</strong>：
+<ul>
+<li>台北故宮博物院：欣賞中國古代文物。</li>
+</ul>
+</li>
+<li><strong>下午</strong>：
+<ul>
+<li>台北101：登高俯瞰台北市景，並可在附近購物。</li>
+</ul>
+</li>
+<li><strong>晚上</strong>：
+<ul>
+<li>士林夜市：品嚐台灣小吃，體驗夜市熱鬧氛圍。</li>
+</ul>
+</li>
+</ul>
+<h3 id="第2天台北到九份與基隆">第2天：台北到九份與基隆</h3>
+<ul>
+<li><strong>早上</strong>：
+<ul>
+<li>驅車前往九份：漫遊九份老街，欣賞古色古香的街道。</li>
+</ul>
+</li>
+<li><strong>下午</strong>：
+<ul>
+<li>前往基隆：遊覽基隆廟口夜市，品嚐當地特色小吃。</li>
+</ul>
+</li>
+<li><strong>晚上</strong>：
+<ul>
+<li>入住基隆的住宿地點。</li>
+</ul>
+</li>
+</ul>
+<h3 id="第3天基隆到花蓮">第3天：基隆到花蓮</h3>
+<ul>
+<li><strong>早上</strong>：
+<ul>
+<li>轉移至花蓮，途經美麗的東部海岸線。</li>
+</ul>
+</li>
+<li><strong>下午</strong>：
+<ul>
+<li>探訪花蓮市區，享受當地的風土人情。</li>
+</ul>
+</li>
+<li><strong>晚上</strong>：
+<ul>
+<li>探索花蓮東大門夜市，品嚐海鮮及其他美食。</li>
+</ul>
+</li>
+</ul>
+<h3 id="第4天花蓮到台東">第4天：花蓮到台東</h3>
+<ul>
+<li><strong>早上</strong>：
+<ul>
+<li>遊覽太魯閣國家公園：體驗砂卡礑步道的壯觀景色。</li>
+</ul>
+</li>
+<li><strong>下午</strong>：
+<ul>
+<li>驅車前往台東，途經美麗的風景區。</li>
+</ul>
+</li>
+<li><strong>晚上</strong>：
+<ul>
+<li>休息並探索台東夜市。</li>
+</ul>
+</li>
+</ul>
+<h3 id="第5天台東到高雄">第5天：台東到高雄</h3>
+<ul>
+<li><strong>早上</strong>：
+<ul>
+<li>參加台東熱氣球嘉年華（若合適時間），享受絕佳的空中視野。</li>
+</ul>
+</li>
+<li><strong>下午</strong>：
+<ul>
+<li>轉移至高雄市，探索蓮池潭及其他主要景點。</li>
+</ul>
+</li>
+<li><strong>晚上</strong>：
+<ul>
+<li>造訪六合夜市，體驗高雄的夜生活。</li>
+</ul>
+</li>
+</ul>
+<h3 id="第6天高雄到台南">第6天：高雄到台南</h3>
+<ul>
+<li><strong>早上</strong>：
+<ul>
+<li>前往台南，參觀安平古堡及赤崁樓等歷史景點。</li>
+</ul>
+</li>
+<li><strong>下午</strong>：
+<ul>
+<li>享受台南的古蹟與美食之旅。</li>
+</ul>
+</li>
+<li><strong>晚上</strong>：
+<ul>
+<li>探索台南的夜市，享受當地小吃。</li>
+</ul>
+</li>
+</ul>
+<h3 id="第7天台南回台北">第7天：台南回台北</h3>
+<ul>
+<li><strong>早上</strong>：
+<ul>
+<li>從台南返回台北。</li>
+</ul>
+</li>
+<li><strong>下午</strong>：
+<ul>
+<li>完成台北市區的最後探索，可以選擇參觀其他未曾造訪的景點。</li>
+</ul>
+</li>
+<li><strong>晚上</strong>：
+<ul>
+<li>準備回程，結束愉快的環島之旅。</li>
+</ul>
+</li>
+</ul>
+<h2 id="注意事項">注意事項</h2>
+<ol>
+<li><strong>交通安排</strong>：建議租車或使用高效的公共交通工具。</li>
+<li><strong>住宿預訂</strong>：提前預訂住宿，特別是在旅遊旺季。</li>
+<li><strong>氣候與服裝</strong>：台灣氣候多變，請根據天氣準備適當的衣物。</li>
+<li><strong>飲食建議</strong>：嘗試當地特色美食，但也要注意飲食衛生。</li>
+</ol>
+<p>這個行程規劃涵蓋了台灣主要的旅遊景點，在短短7天內可以深度體驗台灣的多樣風貌。</p>
+
         </div>
 
        

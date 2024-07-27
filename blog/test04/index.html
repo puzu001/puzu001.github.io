@@ -5,7 +5,7 @@
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="學習 go 語法">
+  <meta name="description" content="學習 html 語法筆記">
   <meta name="author" content="Puzumei">
     
   
@@ -136,191 +136,81 @@
     <div class="row">
       <div class="col-lg-8 mx-auto">
         
-        <a href="/categories/%e9%96%8b%e7%99%bc"
-          class="text-primary">開發</a>
-        
         <a href="/categories/%e5%ad%b8%e7%bf%92"
           class="text-primary">學習</a>
         
-        <h2>Go 語法學習</h2>
+        <h2>Html 語法架構學習</h2>
         <div class="mb-3 post-meta">
           <span>By Puzumei</span>
           
           <span class="border-bottom border-primary px-2 mx-1"></span>
-          <span>30 June 2024</span>
+          <span>24 July 2024</span>
           
         </div>
         
-        <img src="https://puzu001.github.io/images/post/toy12.png" class="img-fluid w-100 mb-4" alt="Go 語法學習">
+        <img src="https://puzu001.github.io/images/post/toy13.png" class="img-fluid w-100 mb-4" alt="Html 語法架構學習">
         
         <div class="content mb-5">
-          <!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<h1 id="go-語法">Go 語法</h1>
-<p>Go 語言（簡稱 Golang）是一種靜態類型、編譯型的編程語言，由 Google 開發。它以其簡單、高效和並行處理能力而聞名。在這篇教學中，我們將介紹 Go 語言的基本語法，包括變量、數據類型、函數、條件語句、循環、結構體和並發處理。</p>
-<h2 id="目錄">目錄</h2>
-<ol>
-<li>Hello, World!</li>
-<li>變量和常量</li>
-<li>數據類型</li>
-<li>函數</li>
-<li>條件語句</li>
-<li>循環</li>
-<li>結構體</li>
-<li>並發處理</li>
-</ol>
-<h2 id="1-hello-world">1. Hello, World!</h2>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#00f">package</span> <span style="color:#000">main</span>
-</span></span><span style="display:flex;"><span><span style="color:#00f">import</span> <span style="color:#5a2">&#34;fmt&#34;</span>
-</span></span><span style="display:flex;"><span><span style="color:#00f">func</span> <span style="color:#000">main</span>() {    
-</span></span><span style="display:flex;"><span>    <span style="color:#000">fmt</span>.<span style="color:#000">Println</span>(<span style="color:#5a2">&#34;Hello, World!&#34;</span>)    
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><p>以上是 Go 的一個簡單範例，展示如何打印 &ldquo;Hello, World!&quot;。每個 Go 程序都從 <code>main</code> 包開始執行，<code>fmt</code> 包提供了格式化輸出的功能。</p>
-<h2 id="2-變量和常量">2. 變量和常量</h2>
-<h3 id="變量">變量</h3>
-<p>Go 中的變量可以使用 <code>var</code> 關鍵字聲明：</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#00f">package</span> <span style="color:#000">main</span>
-</span></span><span style="display:flex;"><span><span style="color:#00f">import</span> <span style="color:#5a2">&#34;fmt&#34;</span>
+          <h1 id="html-語法架構">HTML 語法架構</h1>
+<h2 id="介紹">介紹</h2>
+<p>HTML（HyperText Markup Language）是用於創建網頁的基本構建塊。本教學將介紹 HTML 的基本結構和常用標籤。</p>
+<h2 id="html-基本結構">HTML 基本結構</h2>
+<p>一個基本的 HTML 文件由以下部分組成：</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#888;font-style:italic">&lt;!DOCTYPE html&gt;</span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#000">html</span> <span style="color:#000">lang</span>=<span style="color:#5a2">&#34;en&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#000">head</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#000">meta</span> <span style="color:#000">charset</span>=<span style="color:#5a2">&#34;UTF-8&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#000">meta</span> <span style="color:#000">name</span>=<span style="color:#5a2">&#34;viewport&#34;</span> <span style="color:#000">content</span>=<span style="color:#5a2">&#34;width=device-width, initial-scale=1.0&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#000">title</span>&gt;Document&lt;/<span style="color:#000">title</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#000">head</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#000">body</span>&gt;
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#00f">func</span> <span style="color:#000">main</span>() {
-</span></span><span style="display:flex;"><span>    <span style="color:#00f">var</span> <span style="color:#000">a</span> <span style="color:#00f">int</span> = <span style="color:#3af">10</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#00f">var</span> <span style="color:#000">b</span> = <span style="color:#3af">20</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#000">c</span> := <span style="color:#3af">30</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#888;font-style:italic">&lt;!-- 在這裡添加你的內容 --&gt;</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#000">fmt</span>.<span style="color:#000">Println</span>(<span style="color:#000">a</span>, <span style="color:#000">b</span>, <span style="color:#000">c</span>)
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><h3 id="常量">常量</h3>
-<p>常量使用 <code>const</code> 關鍵字聲明：</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#00f">package</span> <span style="color:#000">main</span>
-</span></span><span style="display:flex;"><span><span style="color:#00f">import</span> <span style="color:#5a2">&#34;fmt&#34;</span>
-</span></span><span style="display:flex;"><span><span style="color:#00f">const</span> <span style="color:#000">PI</span> = <span style="color:#3af">3.14</span>
-</span></span><span style="display:flex;"><span><span style="color:#00f">func</span> <span style="color:#000">main</span>() {
-</span></span><span style="display:flex;"><span>    <span style="color:#000">fmt</span>.<span style="color:#000">Println</span>(<span style="color:#000">PI</span>)
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><h2 id="3-數據類型">3. 數據類型</h2>
-<p>Go 支持多種數據類型，包括整數、浮點數、字符串和布爾值：</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#00f">package</span> <span style="color:#000">main</span>
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#000">body</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#000">html</span>&gt;
+</span></span></code></pre></div><ul>
+<li><code>&lt;!DOCTYPE html&gt;</code>：定義文件類型和版本。</li>
+<li><code>&lt;html&gt;</code>：根元素，包含整個 HTML 內容。</li>
+<li><code>&lt;head&gt;</code>：包含了文檔的元（meta）數據、鏈接到外部資源（如樣式表和腳本）和其他的元素。</li>
+<li><code>&lt;meta&gt;</code>：提供關於文檔的元數據，如字符集設置和頁面的元描述。</li>
+<li><code>&lt;title&gt;</code>：文檔的標題，顯示在瀏覽器的標題欄或標籤中。</li>
+<li><code>&lt;body&gt;</code>：包含了可見的頁面內容，如文本、圖像、超鏈接、表格等。</li>
+</ul>
+<h2 id="html-常用標籤">HTML 常用標籤</h2>
+<h3 id="標題標籤">標題標籤</h3>
+<p>HTML 提供了六個級別的標題標籤，從 <code>&lt;h1&gt;</code> 到 <code>&lt;h6&gt;</code>，用於定義不同級別的標題。</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#000">h1</span>&gt;這是一個一級標題&lt;/<span style="color:#000">h1</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#000">h2</span>&gt;這是一個二級標題&lt;/<span style="color:#000">h2</span>&gt;
+</span></span><span style="display:flex;"><span><span style="color:#888;font-style:italic">&lt;!-- 依此類推，直到 &lt;h6&gt; --&gt;</span>
+</span></span></code></pre></div><h3 id="段落標籤">段落標籤</h3>
+<p>用 <code>&lt;p&gt;</code> 標籤來定義段落：</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#000">p</span>&gt;這是一個段落。&lt;/<span style="color:#000">p</span>&gt;
+</span></span></code></pre></div><h3 id="超鏈接標籤">超鏈接標籤</h3>
+<p>用 <code>&lt;a&gt;</code> 標籤來創建超鏈接：</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#000">a</span> <span style="color:#000">href</span>=<span style="color:#5a2">&#34;https://example.com&#34;</span>&gt;點擊這裡訪問示例網站&lt;/<span style="color:#000">a</span>&gt;
+</span></span></code></pre></div><h3 id="圖像標籤">圖像標籤</h3>
+<p>用 <code>&lt;img&gt;</code> 標籤插入圖像：</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#000">img</span> <span style="color:#000">src</span>=<span style="color:#5a2">&#34;image.jpg&#34;</span> <span style="color:#000">alt</span>=<span style="color:#5a2">&#34;描述圖像的文字&#34;</span>&gt;
+</span></span></code></pre></div><h3 id="列表標籤">列表標籤</h3>
+<p>HTML 支持有序列表（<code>&lt;ol&gt;</code>）和無序列表（<code>&lt;ul&gt;</code>）：</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#000">h3</span>&gt;有序列表：&lt;/<span style="color:#000">h3</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#000">ol</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#000">li</span>&gt;項目一&lt;/<span style="color:#000">li</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#000">li</span>&gt;項目二&lt;/<span style="color:#000">li</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#000">ol</span>&gt;
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#00f">import</span> <span style="color:#5a2">&#34;fmt&#34;</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#00f">func</span> <span style="color:#000">main</span>() {
-</span></span><span style="display:flex;"><span>    <span style="color:#00f">var</span> <span style="color:#000">a</span> <span style="color:#00f">int</span> = <span style="color:#3af">10</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#00f">var</span> <span style="color:#000">b</span> <span style="color:#00f">float64</span> = <span style="color:#3af">3.14</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#00f">var</span> <span style="color:#000">c</span> <span style="color:#00f">string</span> = <span style="color:#5a2">&#34;Hello&#34;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#00f">var</span> <span style="color:#000">d</span> <span style="color:#00f">bool</span> = <span style="color:#00f">true</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#000">fmt</span>.<span style="color:#000">Println</span>(<span style="color:#000">a</span>, <span style="color:#000">b</span>, <span style="color:#000">c</span>, <span style="color:#000">d</span>)
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><h2 id="4-函數">4. 函數</h2>
-<p>Go 中的函數使用 <code>func</code> 關鍵字定義：</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#00f">package</span> <span style="color:#000">main</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#00f">import</span> <span style="color:#5a2">&#34;fmt&#34;</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#00f">func</span> <span style="color:#000">add</span>(<span style="color:#000">x</span> <span style="color:#00f">int</span>, <span style="color:#000">y</span> <span style="color:#00f">int</span>) <span style="color:#00f">int</span> {
-</span></span><span style="display:flex;"><span>    <span style="color:#00f">return</span> <span style="color:#000">x</span> + <span style="color:#000">y</span>
-</span></span><span style="display:flex;"><span>}
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#00f">func</span> <span style="color:#000">main</span>() {
-</span></span><span style="display:flex;"><span>    <span style="color:#000">result</span> := <span style="color:#000">add</span>(<span style="color:#3af">10</span>, <span style="color:#3af">20</span>)
-</span></span><span style="display:flex;"><span>    <span style="color:#000">fmt</span>.<span style="color:#000">Println</span>(<span style="color:#000">result</span>)
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><h2 id="5-條件語句">5. 條件語句</h2>
-<p>Go 中的條件語句包括 <code>if</code>、<code>else if</code> 和 <code>else</code>：</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#00f">package</span> <span style="color:#000">main</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#00f">import</span> <span style="color:#5a2">&#34;fmt&#34;</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#00f">func</span> <span style="color:#000">main</span>() {
-</span></span><span style="display:flex;"><span>    <span style="color:#00f">var</span> <span style="color:#000">a</span> <span style="color:#00f">int</span> = <span style="color:#3af">10</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#00f">if</span> <span style="color:#000">a</span> &lt; <span style="color:#3af">20</span> {
-</span></span><span style="display:flex;"><span>        <span style="color:#000">fmt</span>.<span style="color:#000">Println</span>(<span style="color:#5a2">&#34;a 小於 20&#34;</span>)
-</span></span><span style="display:flex;"><span>    } <span style="color:#00f">else</span> <span style="color:#00f">if</span> <span style="color:#000">a</span> == <span style="color:#3af">20</span> {
-</span></span><span style="display:flex;"><span>        <span style="color:#000">fmt</span>.<span style="color:#000">Println</span>(<span style="color:#5a2">&#34;a 等於 20&#34;</span>)
-</span></span><span style="display:flex;"><span>    } <span style="color:#00f">else</span> {
-</span></span><span style="display:flex;"><span>        <span style="color:#000">fmt</span>.<span style="color:#000">Println</span>(<span style="color:#5a2">&#34;a 大於 20&#34;</span>)
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><h2 id="6-循環">6. 循環</h2>
-<p>Go 支持 <code>for</code> 循環：</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#00f">package</span> <span style="color:#000">main</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#00f">import</span> <span style="color:#5a2">&#34;fmt&#34;</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#00f">func</span> <span style="color:#000">main</span>() {
-</span></span><span style="display:flex;"><span>    <span style="color:#00f">for</span> <span style="color:#000">i</span> := <span style="color:#3af">0</span>; <span style="color:#000">i</span> &lt; <span style="color:#3af">5</span>; <span style="color:#000">i</span>++ {
-</span></span><span style="display:flex;"><span>        <span style="color:#000">fmt</span>.<span style="color:#000">Println</span>(<span style="color:#000">i</span>)
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#888;font-style:italic">// 迭代數組
-</span></span></span><span style="display:flex;"><span><span style="color:#888;font-style:italic"></span>    <span style="color:#000">arr</span> := [<span style="color:#3af">3</span>]<span style="color:#00f">int</span>{<span style="color:#3af">1</span>, <span style="color:#3af">2</span>, <span style="color:#3af">3</span>}
-</span></span><span style="display:flex;"><span>    <span style="color:#00f">for</span> <span style="color:#000">index</span>, <span style="color:#000">value</span> := <span style="color:#00f">range</span> <span style="color:#000">arr</span> {
-</span></span><span style="display:flex;"><span>        <span style="color:#000">fmt</span>.<span style="color:#000">Println</span>(<span style="color:#000">index</span>, <span style="color:#000">value</span>)
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><h2 id="7-結構體">7. 結構體</h2>
-<p>結構體是 Go 中的自定義數據類型：</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#00f">package</span> <span style="color:#000">main</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#00f">import</span> <span style="color:#5a2">&#34;fmt&#34;</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#00f">type</span> <span style="color:#000">Person</span> <span style="color:#00f">struct</span> {
-</span></span><span style="display:flex;"><span>    <span style="color:#000">Name</span> <span style="color:#00f">string</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#000">Age</span>  <span style="color:#00f">int</span>
-</span></span><span style="display:flex;"><span>}
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#00f">func</span> <span style="color:#000">main</span>() {
-</span></span><span style="display:flex;"><span>    <span style="color:#000">person</span> := <span style="color:#000">Person</span>{<span style="color:#000">Name</span>: <span style="color:#5a2">&#34;Alice&#34;</span>, <span style="color:#000">Age</span>: <span style="color:#3af">30</span>}
-</span></span><span style="display:flex;"><span>    <span style="color:#000">fmt</span>.<span style="color:#000">Println</span>(<span style="color:#000">person</span>.<span style="color:#000">Name</span>, <span style="color:#000">person</span>.<span style="color:#000">Age</span>)
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><h2 id="8-並發處理">8. 並發處理</h2>
-<p>Go 支持並發處理，使用 <code>goroutine</code> 和 <code>channel</code>：</p>
-<h3 id="goroutine">Goroutine</h3>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#00f">package</span> <span style="color:#000">main</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#00f">import</span> (
-</span></span><span style="display:flex;"><span>    <span style="color:#5a2">&#34;fmt&#34;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#5a2">&#34;time&#34;</span>
-</span></span><span style="display:flex;"><span>)
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#00f">func</span> <span style="color:#000">say</span>(<span style="color:#000">s</span> <span style="color:#00f">string</span>) {
-</span></span><span style="display:flex;"><span>    <span style="color:#00f">for</span> <span style="color:#000">i</span> := <span style="color:#3af">0</span>; <span style="color:#000">i</span> &lt; <span style="color:#3af">5</span>; <span style="color:#000">i</span>++ {
-</span></span><span style="display:flex;"><span>        <span style="color:#000">time</span>.<span style="color:#000">Sleep</span>(<span style="color:#3af">100</span> * <span style="color:#000">time</span>.<span style="color:#000">Millisecond</span>)
-</span></span><span style="display:flex;"><span>        <span style="color:#000">fmt</span>.<span style="color:#000">Println</span>(<span style="color:#000">s</span>)
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>}
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#00f">func</span> <span style="color:#000">main</span>() {
-</span></span><span style="display:flex;"><span>    <span style="color:#00f">go</span> <span style="color:#000">say</span>(<span style="color:#5a2">&#34;world&#34;</span>)
-</span></span><span style="display:flex;"><span>    <span style="color:#000">say</span>(<span style="color:#5a2">&#34;hello&#34;</span>)
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><h3 id="channel">Channel</h3>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#00f">package</span> <span style="color:#000">main</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#00f">import</span> <span style="color:#5a2">&#34;fmt&#34;</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#00f">func</span> <span style="color:#000">sum</span>(<span style="color:#000">s</span> []<span style="color:#00f">int</span>, <span style="color:#000">c</span> <span style="color:#00f">chan</span> <span style="color:#00f">int</span>) {
-</span></span><span style="display:flex;"><span>    <span style="color:#000">sum</span> := <span style="color:#3af">0</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#00f">for</span> <span style="color:#000">_</span>, <span style="color:#000">v</span> := <span style="color:#00f">range</span> <span style="color:#000">s</span> {
-</span></span><span style="display:flex;"><span>        <span style="color:#000">sum</span> += <span style="color:#000">v</span>
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>    <span style="color:#000">c</span> &lt;- <span style="color:#000">sum</span>
-</span></span><span style="display:flex;"><span>}
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#00f">func</span> <span style="color:#000">main</span>() {
-</span></span><span style="display:flex;"><span>    <span style="color:#000">s</span> := []<span style="color:#00f">int</span>{<span style="color:#3af">1</span>, <span style="color:#3af">2</span>, <span style="color:#3af">3</span>, <span style="color:#3af">4</span>, <span style="color:#3af">5</span>}
-</span></span><span style="display:flex;"><span>    <span style="color:#000">c</span> := <span style="color:#000">make</span>(<span style="color:#00f">chan</span> <span style="color:#00f">int</span>)
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#00f">go</span> <span style="color:#000">sum</span>(<span style="color:#000">s</span>, <span style="color:#000">c</span>)
-</span></span><span style="display:flex;"><span>    <span style="color:#000">result</span> := &lt;-<span style="color:#000">c</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#000">fmt</span>.<span style="color:#000">Println</span>(<span style="color:#000">result</span>)
-</span></span><span style="display:flex;"><span>}
-</span></span></code></pre></div><hr>
-<p>感謝閱讀這篇 &ldquo;Go 語法教學&rdquo; 部落格文章！如果你有任何問題或需要進一步的幫助，歡迎在下方留言。</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#000">h3</span>&gt;無序列表：&lt;/<span style="color:#000">h3</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#000">ul</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#000">li</span>&gt;項目一&lt;/<span style="color:#000">li</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#000">li</span>&gt;項目二&lt;/<span style="color:#000">li</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#000">ul</span>&gt;
+</span></span></code></pre></div><h2 id="html-屬性">HTML 屬性</h2>
+<p>HTML 標籤可以包含屬性，用於提供進一步的信息或設置。例如，<code>href</code> 屬性指定超鏈接的目標 URL。</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#000">a</span> <span style="color:#000">href</span>=<span style="color:#5a2">&#34;https://example.com&#34;</span> <span style="color:#000">title</span>=<span style="color:#5a2">&#34;點擊訪問示例網站&#34;</span>&gt;點擊這裡訪問示例網站&lt;/<span style="color:#000">a</span>&gt;
+</span></span></code></pre></div><h2 id="結論">結論</h2>
+<p>這篇教學介紹了 HTML 的基本結構、常用標籤和屬性，能快速入門創建靜態網頁。</p>
+<p>如需更多信息，請參考 <a href="https://www.w3schools.com/html/">W3Schools HTML 教程</a>。</p>
 
         </div>
 
